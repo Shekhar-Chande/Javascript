@@ -1,0 +1,52 @@
+Que:- Explain the key difference between  JavaScript and HTML. Provide examples of situations where you would use each.
+
+Ans:-
+
+HTML (HyperText Markup Language):
+
+Purpose: HTML is a markup language used to structure the content of a webpage. It defines the elements on the page, such as headings, paragraphs, images, links, forms, etc.
+Role: It is the skeleton or structure of a webpage.
+Syntax: HTML uses tags to describe elements. For example, <div>, <h1>, <p>, and <img> are HTML tags.
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Webpage</title>
+</head>
+<body>
+  <h1>Welcome to My Webpage</h1>
+  <p>This is a paragraph of text.</p>
+  <a href="https://www.example.com">Visit Example</a>
+</body>
+</html>
+
+
+
+
+JavaScript:
+
+Purpose: JavaScript is a programming language used to add interactivity, functionality, and dynamic behavior to webpages. It can manipulate the content defined in HTML, respond to user actions, and create things like animations, form validation, and more.
+Role: JavaScript enables behavior and logic on the webpage, such as responding to user events like clicks, keystrokes, and submitting forms.
+Syntax: JavaScript uses statements, expressions, variables, functions, loops, and conditionals. It can be embedded within HTML using <script> tags or linked as an external file.
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Webpage with JS</title>
+</head>
+<body>
+  <h1>Welcome to My Webpage</h1>
+  <button id="clickButton">Click Me!</button>
+
+  <script>
+    // JavaScript code to add interactivity
+    document.getElementById("clickButton").addEventListener("click", function() {
+      alert("Button clicked!");
+    });
+  </script>
+</body>
+</html>
